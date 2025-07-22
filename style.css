@@ -147,9 +147,10 @@ button {
     width: 75px;;
 }
 
+
 .cls-1 {
-    fill: #fff;
-    stroke: #231f20;
-    stroke-linecap: round;
+    fill: none;
+    stroke: #000;
     stroke-miterlimit: 10;
 }
+
