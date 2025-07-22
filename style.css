@@ -3,13 +3,31 @@
     padding: 0;
 }
 
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, #284acf, #fd5ca0) ;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to bottom right, #284acf, #fd5ca0) ;
-    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.svgLayer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
 }
 
 header {
@@ -69,6 +87,7 @@ main {
     flex-grow: 1;
     align-items: center;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 .intro {
@@ -125,4 +144,11 @@ button {
 
 #github:hover {
     width: 75px;;
+}
+
+.cls-1 {
+    fill: #fff;
+    stroke: #231f20;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
 }
