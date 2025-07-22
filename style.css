@@ -21,7 +21,7 @@
     z-index: 2;
 }
 
-.svgLayer {
+svg {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -150,7 +150,13 @@ button {
 
 .cls-1 {
     fill: none;
-    stroke: #000;
+    stroke: white;
+    stroke-miterlimit: 10;
+}
+
+.cls-2 {
+    fill: none;
+    stroke: gold;
     stroke-miterlimit: 10;
 }
 
