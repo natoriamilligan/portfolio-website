@@ -31,7 +31,7 @@ svg {
     min-height: 500px;
 }
 
-@keyframes pipeGlow {
+@keyframes pipeGlowH {
     from {
         x: 100%;
     }
@@ -42,7 +42,21 @@ svg {
 }
 
 .maskRectH {
-    animation: pipeGlow 4s ease-out infinite;
+    animation: pipeGlowH 4s linear infinite;
+}
+
+@keyframes pipeGlowV {
+    from {
+        y: 100%;
+    }
+
+    to {
+        y: -100%;
+    }
+}
+
+.maskRectV {
+    animation: pipeGlowV 4s linear infinite;
 }
 
 header {
@@ -166,11 +180,13 @@ button {
     fill: none;
     stroke: white;
     stroke-miterlimit: 10;
+    stroke-width: 2;
 }
 
 .cls-2 {
     fill: none;
     stroke: gold;
     stroke-miterlimit: 10;
+    stroke-width: 2;
 }
 
