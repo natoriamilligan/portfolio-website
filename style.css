@@ -59,6 +59,20 @@ svg {
     animation: pipeGlowV 4s linear infinite;
 }
 
+.cls-1 {
+    fill: none;
+    stroke: white;
+    stroke-miterlimit: 10;
+    stroke-width: 2;
+}
+
+.cls-2 {
+    fill: none;
+    stroke: gold;
+    stroke-miterlimit: 10;
+    stroke-width: 2;
+}
+
 header {
     display: flex;
     height: 100px;
@@ -174,19 +188,3 @@ button {
 #github:hover {
     width: 75px;;
 }
-
-
-.cls-1 {
-    fill: none;
-    stroke: white;
-    stroke-miterlimit: 10;
-    stroke-width: 2;
-}
-
-.cls-2 {
-    fill: none;
-    stroke: gold;
-    stroke-miterlimit: 10;
-    stroke-width: 2;
-}
-
