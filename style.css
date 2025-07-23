@@ -31,6 +31,20 @@ svg {
     min-height: 500px;
 }
 
+@keyframes pipeGlow {
+    from {
+        x: 100%;
+    }
+
+    to {
+        x: -100%;
+    }
+}
+
+.maskRectH {
+    animation: pipeGlow 4s ease-out infinite;
+}
+
 header {
     display: flex;
     height: 100px;
