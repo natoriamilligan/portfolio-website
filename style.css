@@ -7,6 +7,9 @@
     height: 100vh;
     width: 100vw;
     background: linear-gradient(to bottom right, #284acf, #fd5ca0) ;
+}
+
+#home-page-wrapper {
     overflow: hidden;
     z-index: 0;
     position: relative;
@@ -125,7 +128,7 @@ li > a:hover::after {
     width: 100%
 }
 
-main {
+.homepage-container {
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -187,4 +190,25 @@ button {
 
 #github:hover {
     width: 75px;;
+}
+
+.projects-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project {
+    height: 2000px;
+    width: 100%;
+    background-color: red;
+}
+
+.projectThumbnail {
+    height: 100px;
+    width: 100px;
+    background-image: url("./sample.png");
+    background-size: cover;
 }
