@@ -12,7 +12,7 @@
 #home-page-wrapper {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     z-index: 0;
     position: relative;
 }
@@ -74,8 +74,8 @@ li > a:hover::after {
     grid-template-rows: auto;
 }
 
-.homepage-container {
-    height: 100vh;
+#home-greeting-wrapper {
+    height: 100%;
     margin-top: 20px;
     color: white;
     width: 100%;
@@ -120,12 +120,45 @@ button {
     gap: 10px;
 }
 
+.pages-title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px 50px 15px;
+}
+
+.project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+
 @media all and (min-width: 600px) {
-.container {
+#home-container {
     margin: 0 auto;
     max-width: 600px
 }
+
+#projects-container {
+    margin: 0 auto;
+    max-width: 800px;
 }
+}
+
+
+
 
 /*
 
@@ -195,31 +228,11 @@ svg {
     stroke-width: 2;
 }
 
-.projects-container {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding: 0 150px 80px 150px;
-}
 
-.pages-title {
-    font-family: monospace;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 40px;
-    font-weight: 100;
-}
 
-.project {
-    display: flex;
-    height: 400px;
-    width: 100%;
-    justify-content: space-between;
-    color: white;
-    border: solid 1px white;
-    border-radius: 10px;
-    padding: 20px 30px;
-}
+
+
+
 
 .thumbnail-container {
     display: flex;
