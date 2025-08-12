@@ -148,13 +148,14 @@ button {
 @media all and (min-width: 600px) {
 #home-container {
     margin: 0 auto;
-    max-width: 600px
+    max-width: 700px
 }
 
 #projects-container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
 }
+
 }
 
 
