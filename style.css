@@ -27,7 +27,7 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 3vw;
+    gap: 30px;
 }
 
 li {
@@ -192,6 +192,10 @@ span {
     padding: 0 15px 0 15px;
 }
 
+#contact-container {
+    width: 100%;
+}
+
 #contact-info-container {
     display: flex;
     flex-direction: column;
@@ -229,13 +233,11 @@ span {
 
 @media all and (min-width: 800px) {
     #home-container {
-        margin: 0 auto;
-        max-width: 900px
+        max-width: 800px
     }
 
     #projects-container {
-        margin: 0 auto;
-        max-width: 900px;
+        max-width: 800px;
     }
 
     .project {
@@ -246,6 +248,17 @@ span {
     .project-thumbnail {
         margin-bottom: 0px;
     }
+
+    #contact-container {
+        max-width: 800px;
+    }
+
+    #contact-info-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 250px;
+    }
+
 }
 
 
